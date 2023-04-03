@@ -12,7 +12,7 @@ function closeNav() {
   var closeburger = document.querySelector('.burger');
   closemenu.classList.remove('active');
   closeburger.classList.remove('active');
-  document.documentElement.classList.toggle('lock');
+  document.documentElement.classList.remove('lock');
 }
 
 
