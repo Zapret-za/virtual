@@ -640,13 +640,10 @@ a {
 }
 @media (max-width: 992px) {
   .about .about__body .about__body-img {
-    padding: 0 60px;
-    animation: 0;
-  }
-}
-@media (max-width: 992px) {
-  .about .about__body .about__body-img {
+    max-width: 520px;
+    margin: 0 auto;
     padding: 0;
+    animation: 0;
   }
 }
 .about .about__body .about__body-img img {
