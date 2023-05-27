@@ -605,17 +605,16 @@ a{
             position: relative;
             animation: updown 3s linear infinite;
             @media(max-width:992px){
-                padding: 0 60px;
-                animation: 0;
-            }
-            @media(max-width:992px){
+                max-width: 520px;
+                margin: 0 auto;
                 padding: 0;
+                animation: 0;
             }
             img{
                 width: 100%;
                 height: auto;
             }
-        } 
+        }
         .about__body-texts{
             margin-left: 18px;
             max-width: 650px;
